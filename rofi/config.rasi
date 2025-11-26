@@ -1,0 +1,19 @@
+configuration {
+  modi: ["drun", "window", "run"];
+
+  icon-theme: "Papirus-Dark";
+  show-icons: true;
+  drun-displa-format: "{icon} {name}";
+  sidebar-mode: false;
+
+  terminal: "kitty";
+
+  location: 0;
+  disable-history: false;
+
+  display-drun: " "; 
+  display-run: " ";
+  display-window: " ";
+}
+
+@theme "/usr/share/rofi/themes/tokyo-night.rasi"
